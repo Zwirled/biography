@@ -1,0 +1,42 @@
+body {
+    background-color: #1329ed;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: magenta;
+    padding: 25px 0px;
+    margin-bottom: 25px;
+}
+
+.image {
+    background-color: magenta;
+    padding: 25px;
+    display: inline-block;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    color: #00f2ff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: white;
+    border-bottom: 1px solid magenta;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
